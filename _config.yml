@@ -11,12 +11,12 @@ description              : ""
 repository               : "liaoxiaojian/liaoxiaojian.github.io"
 google_scholar_stats_use_cdn : false
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+# google analytics, get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      :  G-PX2PZ0Y7KN 
 
 # SEO Related
-google_site_verification :   # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+google_site_verification :  W7rK1ePUdAlUB7PeQl_ZtyLJFe5betF1Oo54nIEHLWQ # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  126D34C373634D92864BFCD14ECE9008 # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
