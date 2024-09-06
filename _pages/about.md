@@ -10,11 +10,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I will join the School of Computer Science and Engineering, [Beihang University (BUAA)](https://ev.buaa.edu.cn/), as an associate professor. 
+I am an associate professor in the School of Computer Science and Engineering, [Beihang University (BUAA)](https://ev.buaa.edu.cn/). 
 I was a postdoc researcher in the Department of Computer Science and Technology, Tsinghua University. 
-I received my Ph.D. degree from Tsinghua University in 2022 (advised by Professor [Jiwu Shu](https://storage.cs.tsinghua.edu.cn/~jiwu-shu/) and [Youyou Lu](https://storage.cs.tsinghua.edu.cn/~lu/)), and Bachelor degree from [HuaZhong University of Science and Technology (HUST)](https://english.hust.edu.cn/) in 2017. 
+I received my PhD degree from Tsinghua University in 2022 (advised by Professor [Jiwu Shu](https://storage.cs.tsinghua.edu.cn/~jiwu-shu/) and [Youyou Lu](https://storage.cs.tsinghua.edu.cn/~lu/)), and Bachelor degree from [Huazhong University of Science and Technology (HUST)](https://english.hust.edu.cn/) in 2017. 
 
-My research interests are primarily in **storage systems**, with a particular focus on enhancing their performance and reliability.
+My research interests are primarily in **storage systems**, focusing on enhancing their performance and reliability.
 My work has been published in top-tier conferences and journals on computer systems, including OSDI, SOSP, FAST, USENIX ATC, EuroSys and ACM TOS. 
 
 <span class='anchor' id='news'></span>
@@ -64,7 +64,7 @@ Zhe Yang, Youyou Lu, **Xiaojian Liao**, Youmin Chen, Junru Li, Siyu He, Jiwu Shu
 **Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu
 - [Progress on Storage Systems for Disaggregated Data Centers](http://scis.scichina.com/cn/2023/SSI-2023-0034.pdf), SCIENTIA SINICA Informationis (中国科学: 信息科学) (In Chinese) \\
 Jiwu Shu, Youmin Chen, Qing Wang, Jing Wang, Junru Li, **Xiaojian liao**
-- [A Low-Latency Storage Engine with Low CPU Overhead](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.20210574), Journal of Computer Research and Delevopment (计算机研究与发展) (in Chinese) \\
+- [A Low-Latency Storage Engine with Low CPU Overhead](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.20210574), Journal of Computer Research and Development (计算机研究与发展) (in Chinese) \\
 **Xiaojian Liao**, Zhe Yang, Hongzhang Yang, Yaofeng Tu, Jiwu Shu
 
 <span class='anchor' id='awards'></span>
