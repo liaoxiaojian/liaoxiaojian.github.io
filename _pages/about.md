@@ -59,7 +59,7 @@ Zhe Yang, Youyou Lu, **Xiaojian Liao**, Youmin Chen, Junru Li, Siyu He, Jiwu Shu
 **Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu
 
 ## 📖 Journal Papers
-- Efficiently Enlarging RDMA-Attached Memory with SSD, **ACM TOS 2023** \\
+- Efficiently Enlarging RDMA-Attached Memory with SSD, **ACM TOS 2024** \\
 Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
 - [Efficient Crash Consistency for NVMe over PCIe and RDMA](https://dl.acm.org/doi/full/10.1145/3568428), **ACM TOS 2023** \\
 **Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu
