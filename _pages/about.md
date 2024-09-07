@@ -34,7 +34,7 @@ My work has been published in top-tier conferences and journals on computer syst
 ### - Distributed and Networked Storage System on Fast Network Devices (e.g., RDMA NIC and DPU)
 - Disaggregated Storage (NVMe-oF): [RIO](https://dl.acm.org/doi/abs/10.1145/3552326.3567495) (EuroSys'23), [ccNVMe-oF](https://dl.acm.org/doi/full/10.1145/3568428) (ACM TOS), [Volley](https://dl.acm.org/doi/10.1145/3627703.3650090) (EuroSys'24)
 - Distributed File System: [SuperFS](https://io500.org/list/sc22/ten?sort=io500_md&direction=desc) (#1 in the IO500 10-node Metadata Challenge, SC'22), [SingularFS](https://www.usenix.org/conference/atc23/presentation/guo) (USNNIX ATC'23)
-- RDMA-based Storage: [TeRM](https://www.usenix.org/conference/fast24/presentation/yang-zhe) (FAST'24)
+- RDMA-based Storage: [TeRM](https://www.usenix.org/conference/fast24/presentation/yang-zhe) (FAST'24, ACM TOS)
 <span class='anchor' id='pubs'></span>
 
 # 📝 Selected Publications
@@ -59,7 +59,8 @@ Zhe Yang, Youyou Lu, **Xiaojian Liao**, Youmin Chen, Junru Li, Siyu He, Jiwu Shu
 **Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu
 
 ## 📖 Journal Papers
-
+- Efficiently Enlarging RDMA-Attached Memory with SSD, **ACM TOS 2023** \\
+Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
 - [Efficient Crash Consistency for NVMe over PCIe and RDMA](https://dl.acm.org/doi/full/10.1145/3568428), **ACM TOS 2023** \\
 **Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu
 - [Progress on Storage Systems for Disaggregated Data Centers](http://scis.scichina.com/cn/2023/SSI-2023-0034.pdf), SCIENTIA SINICA Informationis (中国科学: 信息科学) (In Chinese) \\
