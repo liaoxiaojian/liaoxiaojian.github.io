@@ -20,6 +20,7 @@ My work has been published in top-tier conferences and journals on computer syst
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- 🆕 Nov, 2024. Zebra (ZNS SSD RAID) has been accepted by HPCA'25.
 - 🆕 August, 2024. I will join Beihang University as an associate professor.
 
 <span class='anchor' id='research'></span>
@@ -40,9 +41,10 @@ My work has been published in top-tier conferences and journals on computer syst
 # 📝 Selected Publications
 
 ## 📰 Conference Papers
-
+- Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA), **HPCA 2025** \\
+Tianyang Jiang, Guangyan Zhang, **Xiaojian Liao**, Yuqi Zhou
 - [Volley: Accelerating Write-Read Orders in Disaggregated Storage](https://dl.acm.org/doi/10.1145/3627703.3650090), **EuroSys 2024**  \\
-Shaoxun Zeng, **Xiaojian Liao**, Hao Guo, Youyou Lu.
+Shaoxun Zeng, **Xiaojian Liao**, Hao Guo, Youyou Lu
 - [TeRM: Extending RDMA-Attached Memory with SSD](https://www.usenix.org/conference/fast24/presentation/yang-zhe), **FAST 2024** \\
 Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
 - [SingularFS: A Billion-Scale Distributed File System Using a Single Metadata Server](https://www.usenix.org/conference/atc23/presentation/guo), **USENIX ATC 2023** \\
@@ -59,7 +61,7 @@ Zhe Yang, Youyou Lu, **Xiaojian Liao**, Youmin Chen, Junru Li, Siyu He, Jiwu Shu
 **Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu
 
 ## 📖 Journal Papers
-- Efficiently Enlarging RDMA-Attached Memory with SSD, **ACM TOS 2024** \\
+- [Efficiently Enlarging RDMA-Attached Memory with SSD](https://dl.acm.org/doi/10.1145/3700772), **ACM TOS 2024** \\
 Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
 - [Efficient Crash Consistency for NVMe over PCIe and RDMA](https://dl.acm.org/doi/full/10.1145/3568428), **ACM TOS 2023** \\
 **Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu
