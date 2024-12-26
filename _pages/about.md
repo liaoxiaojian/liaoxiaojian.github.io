@@ -17,6 +17,8 @@ I received my PhD degree from Tsinghua University in 2022 (advised by Professor 
 My research interests are primarily in **storage systems**, focusing on enhancing their performance and reliability.
 My work has been published in top-tier conferences and journals on computer systems, including OSDI, SOSP, FAST, USENIX ATC, EuroSys and ACM TOS. 
 
+<font color="red">⭐ We are seeking self-motivated Master, PhD, and undergraduate students with strong programming skills to join our research in computer systems and architectures. If you're interested, feel free to reach out with your CV.</font>
+
 <span class='anchor' id='news'></span>
 
 # 🔥 News
