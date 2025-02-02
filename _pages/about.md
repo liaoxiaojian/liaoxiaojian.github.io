@@ -14,14 +14,15 @@ I am an associate professor in the School of Computer Science and Engineering, [
 I was a postdoc researcher in the Department of Computer Science and Technology, Tsinghua University. 
 I received my PhD degree from Tsinghua University in 2022 (advised by Professor [Jiwu Shu](https://storage.cs.tsinghua.edu.cn/~jiwu-shu/) and [Youyou Lu](https://storage.cs.tsinghua.edu.cn/~lu/)), and Bachelor degree from [Huazhong University of Science and Technology (HUST)](https://english.hust.edu.cn/) in 2017. 
 
-My research interests are primarily in **storage systems**, focusing on enhancing their performance and reliability.
-My work has been published in top-tier conferences and journals on computer systems, including OSDI, SOSP, FAST, USENIX ATC, EuroSys and ACM TOS. 
+My research interests are primarily in **storage systems and AI systems**, focusing on enhancing their performance and reliability.
+My work has been published in top-tier conferences and journals on computer systems, including OSDI, SOSP, FAST, USENIX ATC, EuroSys, ASPLOS, HPCA and ACM TOS. 
 
 <font color="red">⭐ We are seeking self-motivated Master, PhD, and undergraduate students with strong programming skills to join our research in computer systems and architectures. If you're interested, feel free to reach out with your CV.</font>
 
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- 🆕 Jan, 2025. CoServe (AI inference system) has been accepted by ASPLOS'25.
 - 🆕 Nov, 2024. Zebra (ZNS SSD RAID) has been accepted by HPCA'25.
 - 🆕 August, 2024. I will join Beihang University as an associate professor.
 
@@ -40,9 +41,13 @@ My work has been published in top-tier conferences and journals on computer syst
 - RDMA-based Storage: [TeRM](https://www.usenix.org/conference/fast24/presentation/yang-zhe) (FAST'24, ACM TOS)
 <span class='anchor' id='pubs'></span>
 
-# 📝 Selected Publications
+### - Efficient and Scalable Operating and Distributed System for New Applications (e.g., AI and LLM)
+- AI Inference/Serving: CoServe (ASPLOS'25)
 
+# 📝 Selected Publications
 ## 📰 Conference Papers
+- CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory, **ASPLOS 2025** \\
+Jiashun Suo, **Xiaojian Liao<sup>*</sup>**, Limin Xiao<sup>*</sup>, Li Ruan, Jinquan Wang, Xiao Su, Zhisheng Huo
 - Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA), **HPCA 2025** \\
 Tianyang Jiang, Guangyan Zhang, **Xiaojian Liao**, Yuqi Zhou
 - [Volley: Accelerating Write-Read Orders in Disaggregated Storage](https://dl.acm.org/doi/10.1145/3627703.3650090), **EuroSys 2024**  \\
