@@ -42,11 +42,11 @@ My work has been published in top-tier conferences and journals on computer syst
 <span class='anchor' id='pubs'></span>
 
 ### - Efficient and Scalable Operating and Distributed System for New Applications (e.g., AI and LLM)
-- AI Inference/Serving: CoServe (ASPLOS'25)
+- AI Inference/Serving: [CoServe](https://dl.acm.org/doi/10.1145/3676641.3715986) (ASPLOS'25), [PipeBoost](https://arxiv.org/abs/2503.17707)
 
 # 📝 Selected Publications
 ## 📰 Conference Papers
-- CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory, **ASPLOS 2025** \\
+- [CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory](https://dl.acm.org/doi/10.1145/3676641.3715986), **ASPLOS 2025** \\
 Jiashun Suo, **Xiaojian Liao<sup>*</sup>**, Limin Xiao<sup>*</sup>, Li Ruan, Jinquan Wang, Xiao Su, Zhisheng Huo
 - Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA), **HPCA 2025** \\
 Tianyang Jiang, Guangyan Zhang, **Xiaojian Liao**, Yuqi Zhou
