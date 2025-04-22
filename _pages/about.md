@@ -74,15 +74,15 @@ Zhe Yang, Youyou Lu, **Xiaojian Liao**, Youmin Chen, Junru Li, Siyu He, Jiwu Shu
 **Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu
 
 ## 📖 Journal Papers
-- SpanTrain: A Cross-Domain Distributed Model Training System for Cloud-Edge-End Heterogeneous Devices, Journal of Big Data Research (大数据) (In Chinese), 2025, (CCF-T2) \\
+- SpanTrain: A Cross-Domain Distributed Model Training System for Cloud-Edge-End Heterogeneous Devices, Journal of Big Data Research (大数据, In Chinese), 2025, (CCF-T2) \\
 Jinquan Wang, Xuzhao Liu, **Xiaojian Liao<sup>*</sup>**, Limin Xiao<sup>*</sup>, Zhisheng Huo, Jiashun Suo, Yuntong Li, Runnan Shen, Xilong Xie, Xicheng Tang
 - [Efficiently Enlarging RDMA-Attached Memory with SSD](https://dl.acm.org/doi/10.1145/3700772), **ACM TOS 2025**, <font color="red">(CCF-A)</font> \\
 Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
 - [Efficient Crash Consistency for NVMe over PCIe and RDMA](https://dl.acm.org/doi/full/10.1145/3568428), **ACM TOS 2023**, <font color="red">(CCF-A)</font> \\
 **Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu
-- [Progress on Storage Systems for Disaggregated Data Centers](http://scis.scichina.com/cn/2023/SSI-2023-0034.pdf), SCIENTIA SINICA Informationis (中国科学: 信息科学) (In Chinese), 2023, (CCF-T1)\\
+- [Progress on Storage Systems for Disaggregated Data Centers](http://scis.scichina.com/cn/2023/SSI-2023-0034.pdf), SCIENTIA SINICA Informationis (中国科学: 信息科学, In Chinese), 2023, (CCF-T1)\\
 Jiwu Shu, Youmin Chen, Qing Wang, Jing Wang, Junru Li, **Xiaojian liao**
-- [A Low-Latency Storage Engine with Low CPU Overhead](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.20210574), Journal of Computer Research and Development (计算机研究与发展) (in Chinese), 2023, (CCF-T1)\\
+- [A Low-Latency Storage Engine with Low CPU Overhead](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.20210574), Journal of Computer Research and Development (计算机研究与发展, in Chinese), 2023, (CCF-T1)\\
 **Xiaojian Liao**, Zhe Yang, Hongzhang Yang, Yaofeng Tu, Jiwu Shu
 
 <span class='anchor' id='awards'></span>
