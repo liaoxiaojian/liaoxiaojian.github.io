@@ -50,10 +50,10 @@ My work has been published in top-tier conferences and journals on computer syst
 
 # 📝 Selected Publications
 ## 📰 Conference Papers
-- CaMDN: Enhancing Cache Efficiency for Multi-tenant DNNs on Integrated NPUs, **DAC 2025**, <font color="red">(CCF-A)</font>\\
+- [CaMDN: Enhancing Cache Efficiency for Multi-tenant DNNs on Integrated NPUs](https://www.arxiv.org/abs/2505.06625), **DAC 2025**, <font color="red">(CCF-A)</font>\\
 Tianhao Cai, Liang Wang, Limin Xiao, Meng Han, Zeyu Wang, Lin Sun, **Xiaojian Liao**
 - [CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory](https://dl.acm.org/doi/10.1145/3676641.3715986), **ASPLOS 2025**, <font color="red">(CCF-A)</font> \\
-Jiashun Suo, **Xiaojian Liao<sup>*</sup>**, Limin Xiao<sup>*</sup>, Li Ruan, Jinquan Wang, Xiao Su, Zhisheng Huo
+Jiashun Suo, **Xiaojian Liao<sup>✉️</sup>**, Limin Xiao<sup>✉️</sup>, Li Ruan, Jinquan Wang, Xiao Su, Zhisheng Huo
 - [Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA)](https://ieeexplore.ieee.org/document/10946715), **HPCA 2025**, <font color="red">(CCF-A)</font> \\
 Tianyang Jiang, Guangyan Zhang, **Xiaojian Liao**, Yuqi Zhou
 - [Volley: Accelerating Write-Read Orders in Disaggregated Storage](https://dl.acm.org/doi/10.1145/3627703.3650090), **EuroSys 2024**, <font color="red">(CCF-A)</font>  \\
@@ -74,8 +74,8 @@ Zhe Yang, Youyou Lu, **Xiaojian Liao**, Youmin Chen, Junru Li, Siyu He, Jiwu Shu
 **Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu
 
 ## 📖 Journal Papers
-- SpanTrain: A Cross-Domain Distributed Model Training System for Cloud-Edge-End Heterogeneous Devices, Journal of Big Data Research (大数据, In Chinese), 2025, (CCF-T2) \\
-Jinquan Wang, Xuzhao Liu, **Xiaojian Liao<sup>*</sup>**, Limin Xiao<sup>*</sup>, Zhisheng Huo, Jiashun Suo, Yuntong Li, Runnan Shen, Xilong Xie, Xicheng Tang
+- [SpanTrain: A Cross-Domain Distributed Model Training System for Cloud-Edge-End Heterogeneous Devices](https://www.j-bigdataresearch.com.cn/zh/article/doi/10.11959/j.issn.2096-0271.2025040/), Journal of Big Data Research (大数据, In Chinese), 2025, (CCF-T2) \\
+Jinquan Wang, Xuzhao Liu, **Xiaojian Liao<sup>✉️</sup>**, Limin Xiao<sup>✉️</sup>, Zhisheng Huo, Jiashun Suo, Yuntong Li, Runnan Shen, Xilong Xie, Xicheng Tang
 - [Efficiently Enlarging RDMA-Attached Memory with SSD](https://dl.acm.org/doi/10.1145/3700772), **ACM TOS 2025**, <font color="red">(CCF-A)</font> \\
 Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
 - [Efficient Crash Consistency for NVMe over PCIe and RDMA](https://dl.acm.org/doi/full/10.1145/3568428), **ACM TOS 2023**, <font color="red">(CCF-A)</font> \\
@@ -85,6 +85,9 @@ Jiwu Shu, Youmin Chen, Qing Wang, Jing Wang, Junru Li, **Xiaojian Liao**
 - [A Low-Latency Storage Engine with Low CPU Overhead](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.20210574), Journal of Computer Research and Development (计算机研究与发展, in Chinese), 2023, (CCF-T1)\\
 **Xiaojian Liao**, Zhe Yang, Hongzhang Yang, Yaofeng Tu, Jiwu Shu
 
+## ✍️ Preprint
+- [PipeBoost: Resilient Pipelined Architecture for Fast Serverless LLM Scaling](https://arxiv.org/abs/2503.17707) \\
+Chongpeng Liu, **Xiaojian Liao<sup>✉️</sup>**, Hancheng Liu, Limin Xiao, Jianxin Li<sup>✉️</sup>
 <span class='anchor' id='awards'></span>
 
 # 🏅 Selected Honors & Awards
