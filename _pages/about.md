@@ -15,7 +15,7 @@ I was a postdoc researcher in the Department of Computer Science and Technology,
 I received my PhD degree from Tsinghua University in 2022 (advised by Professor [Jiwu Shu](https://storage.cs.tsinghua.edu.cn/~jiwu-shu/) and [Youyou Lu](https://storage.cs.tsinghua.edu.cn/~lu/)), and Bachelor degree from [Huazhong University of Science and Technology (HUST)](https://english.hust.edu.cn/) in 2017. 
 
 My research interests are primarily in **storage systems and AI systems**, focusing on enhancing their performance and reliability.
-My work has been published in top-tier conferences and journals on computer systems, including OSDI, SOSP, FAST, USENIX ATC, EuroSys, ASPLOS, HPCA and ACM TOS. 
+My work has been published in top-tier conferences and journals on computer systems, including OSDI, SOSP, FAST, USENIX ATC, EuroSys, ASPLOS, HPCA, DAC and ACM TOS. 
 
 <font color="red">⭐ We are seeking self-motivated Master, PhD, and undergraduate students with strong programming skills to join our research in computer systems and architectures. If you're interested, feel free to reach out with your CV.</font>
 
@@ -45,15 +45,16 @@ My work has been published in top-tier conferences and journals on computer syst
 
 ### - Efficient and Scalable Computer System and Architecture for New Applications (e.g., AI and LLM)
 - AI Inference/Serving System: [CoServe](https://dl.acm.org/doi/10.1145/3676641.3715986) (ASPLOS'25), [PipeBoost](https://arxiv.org/abs/2503.17707)
-- AI Training System: SpanTrain
-- AI Accelerator: CaMDN (DAC'25)
+- AI Training System: [DeepCEE](https://arxiv.org/abs/2505.15536v2)
+- AI Accelerator: [CaMDN](https://www.arxiv.org/abs/2505.06625) (DAC'25)
 
-# 📝 Selected Publications
+# 📝 Selected Publications 
+(✉: corresponding authors, #: co-first authors)
 ## 📰 Conference Papers
 - [CaMDN: Enhancing Cache Efficiency for Multi-tenant DNNs on Integrated NPUs](https://www.arxiv.org/abs/2505.06625), **DAC 2025**, <font color="red">(CCF-A)</font>\\
 Tianhao Cai, Liang Wang, Limin Xiao, Meng Han, Zeyu Wang, Lin Sun, **Xiaojian Liao**
 - [CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory](https://dl.acm.org/doi/10.1145/3676641.3715986), **ASPLOS 2025**, <font color="red">(CCF-A)</font> \\
-Jiashun Suo, **Xiaojian Liao<sup>✉️</sup>**, Limin Xiao<sup>✉️</sup>, Li Ruan, Jinquan Wang, Xiao Su, Zhisheng Huo
+Jiashun Suo, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao<sup>✉</sup>, Li Ruan, Jinquan Wang, Xiao Su, Zhisheng Huo
 - [Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA)](https://ieeexplore.ieee.org/document/10946715), **HPCA 2025**, <font color="red">(CCF-A)</font> \\
 Tianyang Jiang, Guangyan Zhang, **Xiaojian Liao**, Yuqi Zhou
 - [Volley: Accelerating Write-Read Orders in Disaggregated Storage](https://dl.acm.org/doi/10.1145/3627703.3650090), **EuroSys 2024**, <font color="red">(CCF-A)</font>  \\
@@ -87,7 +88,10 @@ Jiwu Shu, Youmin Chen, Qing Wang, Jing Wang, Junru Li, **Xiaojian Liao**
 
 ## ✍️ Preprint
 - [PipeBoost: Resilient Pipelined Architecture for Fast Serverless LLM Scaling](https://arxiv.org/abs/2503.17707) \\
-Chongpeng Liu, **Xiaojian Liao<sup>✉️</sup>**, Hancheng Liu, Limin Xiao, Jianxin Li<sup>✉️</sup>
+Chongpeng Liu, **Xiaojian Liao<sup>✉</sup>**, Hancheng Liu, Limin Xiao, Jianxin Li<sup>✉</sup>
+- [DeepCEE: Efficient Cross-Region Model Distributed Training System under Heterogeneous GPUs and Networks](https://arxiv.org/abs/2505.15536v2) \\
+Jinquan Wang<sup>#</sup>, **Xiaojian Liao<sup>#</sup>**, Xuzhao Liu, Jiashun Suo, Zhisheng Huo, Chenhao Zhang, Xiangrong Xu, Runnan Shen, Xilong Xie, Limin Xiao
+
 <span class='anchor' id='awards'></span>
 
 # 🏅 Selected Honors & Awards
