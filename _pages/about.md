@@ -76,7 +76,7 @@ Zhe Yang, Youyou Lu, **Xiaojian Liao**, Youmin Chen, Junru Li, Siyu He, Jiwu Shu
 
 ## 📖 Journal Papers
 - [SpanTrain: A Cross-Domain Distributed Model Training System for Cloud-Edge-End Heterogeneous Devices](https://www.j-bigdataresearch.com.cn/zh/article/doi/10.11959/j.issn.2096-0271.2025040/), Journal of Big Data Research (大数据, In Chinese), 2025, (CCF-T2) \\
-Jinquan Wang, Xuzhao Liu, **Xiaojian Liao<sup>✉️</sup>**, Limin Xiao<sup>✉️</sup>, Zhisheng Huo, Jiashun Suo, Yuntong Li, Runnan Shen, Xilong Xie, Xicheng Tang
+Jinquan Wang, Xuzhao Liu, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao<sup>✉</sup>, Zhisheng Huo, Jiashun Suo, Yuntong Li, Runnan Shen, Xilong Xie, Xicheng Tang
 - [Efficiently Enlarging RDMA-Attached Memory with SSD](https://dl.acm.org/doi/10.1145/3700772), **ACM TOS 2025**, <font color="red">(CCF-A)</font> \\
 Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
 - [Efficient Crash Consistency for NVMe over PCIe and RDMA](https://dl.acm.org/doi/full/10.1145/3568428), **ACM TOS 2023**, <font color="red">(CCF-A)</font> \\
