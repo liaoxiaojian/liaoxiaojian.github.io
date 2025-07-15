@@ -47,52 +47,52 @@ My work has been published in top-tier conferences and journals on computer syst
 ### - Efficient and Scalable Computer System and Architecture for New Applications (e.g., AI and LLM)
 - AI Inference/Serving System: [CoServe](https://dl.acm.org/doi/10.1145/3676641.3715986) (ASPLOS'25), [PipeBoost](https://arxiv.org/abs/2503.17707)
 - AI Training System: [DeepCEE](https://arxiv.org/abs/2505.15536v2)
-- AI Accelerator: [CaMDN](https://www.arxiv.org/abs/2505.06625) (DAC'25)
+- AI Accelerator: [CaMDN](https://www.arxiv.org/abs/2505.06625) (DAC'25), Amove (MICRO'25)
 
 # 📝 Selected Publications 
 (✉: corresponding authors, #: co-first authors)
 ## 📰 Conference Papers
-- Amove: Accelerating LLMs through Mitigating Outliers and Salient Points via Fine-Grained Grouped Vectorized Data Type, **MICRO 2025**, <font color="red">(CCF-A)</font>\\
+- Amove: Accelerating LLMs through Mitigating Outliers and Salient Points via Fine-Grained Grouped Vectorized Data Type, **MICRO 2025**, <font color="red">(CCF-A)</font>  
   Xilong Xie, Liang Wang, Limin Xiao, Meng Han, Lei Liu, Xiangrong Xu, Jinquan Wang, Zhen Song, **Xiaojian Liao**
-- [CaMDN: Enhancing Cache Efficiency for Multi-tenant DNNs on Integrated NPUs](https://www.arxiv.org/abs/2505.06625), **DAC 2025**, <font color="red">(CCF-A)</font>\\
+- [CaMDN: Enhancing Cache Efficiency for Multi-tenant DNNs on Integrated NPUs](https://www.arxiv.org/abs/2505.06625), **DAC 2025**, <font color="red">(CCF-A)</font>  
 Tianhao Cai, Liang Wang, Limin Xiao, Meng Han, Zeyu Wang, Lin Sun, **Xiaojian Liao**
-- [CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory](https://dl.acm.org/doi/10.1145/3676641.3715986), **ASPLOS 2025**, <font color="red">(CCF-A)</font> \\
+- [CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory](https://dl.acm.org/doi/10.1145/3676641.3715986), **ASPLOS 2025**, <font color="red">(CCF-A)</font>  
 Jiashun Suo, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao<sup>✉</sup>, Li Ruan, Jinquan Wang, Xiao Su, Zhisheng Huo
-- [Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA)](https://ieeexplore.ieee.org/document/10946715), **HPCA 2025**, <font color="red">(CCF-A)</font> \\
+- [Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA)](https://ieeexplore.ieee.org/document/10946715), **HPCA 2025**, <font color="red">(CCF-A)</font>
 Tianyang Jiang, Guangyan Zhang, **Xiaojian Liao**, Yuqi Zhou
-- [Volley: Accelerating Write-Read Orders in Disaggregated Storage](https://dl.acm.org/doi/10.1145/3627703.3650090), **EuroSys 2024**, <font color="red">(CCF-A)</font>  \\
+- [Volley: Accelerating Write-Read Orders in Disaggregated Storage](https://dl.acm.org/doi/10.1145/3627703.3650090), **EuroSys 2024**, <font color="red">(CCF-A)</font>  
 Shaoxun Zeng, **Xiaojian Liao**, Hao Guo, Youyou Lu
-- [TeRM: Extending RDMA-Attached Memory with SSD](https://www.usenix.org/conference/fast24/presentation/yang-zhe), **FAST 2024**, <font color="red">(CCF-A)</font>\\
-Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
-- [SingularFS: A Billion-Scale Distributed File System Using a Single Metadata Server](https://www.usenix.org/conference/atc23/presentation/guo), **USENIX ATC 2023**, <font color="red">(CCF-A)</font> \\
+- [TeRM: Extending RDMA-Attached Memory with SSD](https://www.usenix.org/conference/fast24/presentation/yang-zhe), **FAST 2024**, <font color="red">(CCF-A)</font>  
+Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu  
+- [SingularFS: A Billion-Scale Distributed File System Using a Single Metadata Server](https://www.usenix.org/conference/atc23/presentation/guo), **USENIX ATC 2023**, <font color="red">(CCF-A)</font>  
 Hao Guo, Youyou Lu, Wenhao Lv, **Xiaojian Liao**, Shaoxun Zeng, Jiwu Shu
-- [λ-IO: A Unified IO Stack for Computational Storage](https://www.usenix.org/conference/fast23/presentation/yang-zhe), **FAST 2023**, <font color="red">(CCF-A)</font> \\
+- [λ-IO: A Unified IO Stack for Computational Storage](https://www.usenix.org/conference/fast23/presentation/yang-zhe), **FAST 2023**, <font color="red">(CCF-A)</font>  
 Zhe Yang, Youyou Lu, **Xiaojian Liao**, Youmin Chen, Junru Li, Siyu He, Jiwu Shu
-- [RIO: Order-Preserving and CPU-Efficient Remote Storage Access](https://dl.acm.org/doi/abs/10.1145/3552326.3567495), **EuroSys 2023**, <font color="red">(CCF-A)</font> \\
+- [RIO: Order-Preserving and CPU-Efficient Remote Storage Access](https://dl.acm.org/doi/abs/10.1145/3552326.3567495), **EuroSys 2023**, <font color="red">(CCF-A)</font>  
 **Xiaojian Liao**, Zhe Yang, Jiwu Shu
-- [Crash Consistent Non-Volatile Memory Express](https://dl.acm.org/doi/10.1145/3477132.3483592), **SOSP 2021**, <font color="red">(CCF-A)</font> \\
+- [Crash Consistent Non-Volatile Memory Express](https://dl.acm.org/doi/10.1145/3477132.3483592), **SOSP 2021**, <font color="red">(CCF-A)</font>
 **Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu
-- [Max: A Multicore-Accelerated File System for Flash Storage](https://www.usenix.org/conference/atc21/presentation/liao), **USENIX ATC 2021**, <font color="red">(CCF-A)</font> \\
+- [Max: A Multicore-Accelerated File System for Flash Storage](https://www.usenix.org/conference/atc21/presentation/liao), **USENIX ATC 2021**, <font color="red">(CCF-A)</font>  
 **Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu
-- [Write Dependency Disentanglement with HORAE](https://www.usenix.org/conference/osdi20/presentation/liao), **OSDI 2020**, <font color="red">(CCF-A)</font> \\
+- [Write Dependency Disentanglement with HORAE](https://www.usenix.org/conference/osdi20/presentation/liao), **OSDI 2020**, <font color="red">(CCF-A)</font>  
 **Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu
 
 ## 📖 Journal Papers
-- [SpanTrain: A Cross-Domain Distributed Model Training System for Cloud-Edge-End Heterogeneous Devices](https://www.j-bigdataresearch.com.cn/zh/article/doi/10.11959/j.issn.2096-0271.2025040/), Journal of Big Data Research (大数据, In Chinese), 2025, (CCF-T2) \\
+- [SpanTrain: A Cross-Domain Distributed Model Training System for Cloud-Edge-End Heterogeneous Devices](https://www.j-bigdataresearch.com.cn/zh/article/doi/10.11959/j.issn.2096-0271.2025040/), Journal of Big Data Research (大数据, In Chinese), 2025, (CCF-T2)  
 Jinquan Wang, Xuzhao Liu, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao<sup>✉</sup>, Zhisheng Huo, Jiashun Suo, Yuntong Li, Runnan Shen, Xilong Xie, Xicheng Tang
-- [Efficiently Enlarging RDMA-Attached Memory with SSD](https://dl.acm.org/doi/10.1145/3700772), **ACM TOS 2025**, <font color="red">(CCF-A)</font> \\
-Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
-- [Efficient Crash Consistency for NVMe over PCIe and RDMA](https://dl.acm.org/doi/full/10.1145/3568428), **ACM TOS 2023**, <font color="red">(CCF-A)</font> \\
+- [Efficiently Enlarging RDMA-Attached Memory with SSD](https://dl.acm.org/doi/10.1145/3700772), **ACM TOS 2025**, <font color="red">(CCF-A)</font>  
+Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu  
+- [Efficient Crash Consistency for NVMe over PCIe and RDMA](https://dl.acm.org/doi/full/10.1145/3568428), **ACM TOS 2023**, <font color="red">(CCF-A)</font>  
 **Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu
-- [Progress on Storage Systems for Disaggregated Data Centers](http://scis.scichina.com/cn/2023/SSI-2023-0034.pdf), SCIENTIA SINICA Informationis (中国科学: 信息科学, In Chinese), 2023, (CCF-T1)\\
+- [Progress on Storage Systems for Disaggregated Data Centers](http://scis.scichina.com/cn/2023/SSI-2023-0034.pdf), SCIENTIA SINICA Informationis (中国科学: 信息科学, In Chinese), 2023, (CCF-T1)  
 Jiwu Shu, Youmin Chen, Qing Wang, Jing Wang, Junru Li, **Xiaojian Liao**
-- [A Low-Latency Storage Engine with Low CPU Overhead](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.20210574), Journal of Computer Research and Development (计算机研究与发展, in Chinese), 2023, (CCF-T1)\\
+- [A Low-Latency Storage Engine with Low CPU Overhead](https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.20210574), Journal of Computer Research and Development (计算机研究与发展, in Chinese), 2023, (CCF-T1)  
 **Xiaojian Liao**, Zhe Yang, Hongzhang Yang, Yaofeng Tu, Jiwu Shu
 
 ## ✍️ Preprint
-- [PipeBoost: Resilient Pipelined Architecture for Fast Serverless LLM Scaling](https://arxiv.org/abs/2503.17707) \\
+- [PipeBoost: Resilient Pipelined Architecture for Fast Serverless LLM Scaling](https://arxiv.org/abs/2503.17707)  
 Chongpeng Liu, **Xiaojian Liao<sup>✉</sup>**, Hancheng Liu, Limin Xiao, Jianxin Li<sup>✉</sup>
-- [DeepCEE: Efficient Cross-Region Model Distributed Training System under Heterogeneous GPUs and Networks](https://arxiv.org/abs/2505.15536v2) \\
+- [DeepCEE: Efficient Cross-Region Model Distributed Training System under Heterogeneous GPUs and Networks](https://arxiv.org/abs/2505.15536v2)  
 Jinquan Wang<sup>#</sup>, **Xiaojian Liao<sup>#</sup>**, Xuzhao Liu, Jiashun Suo, Zhisheng Huo, Chenhao Zhang, Xiangrong Xu, Runnan Shen, Xilong Xie, Limin Xiao
 
 <span class='anchor' id='awards'></span>
