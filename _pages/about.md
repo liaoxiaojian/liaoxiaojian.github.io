@@ -22,6 +22,7 @@ My work has been published in top-tier conferences and journals on computer syst
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- 🎉 July 2025. Amove (Software/Hardware codesign of LLM quantization) has been accepted to MICRO'25.
 - 🎉 Apr 2025. SpanTrain (AI training system) has been accepted to J-BDR.
 - 🎉 Feb 2025. CaMDN (AI accelerator) has been accepted to DAC'25. 
 - 🎉 Jan 2025. CoServe (AI inference system) has been accepted to ASPLOS'25.
@@ -51,6 +52,8 @@ My work has been published in top-tier conferences and journals on computer syst
 # 📝 Selected Publications 
 (✉: corresponding authors, #: co-first authors)
 ## 📰 Conference Papers
+- Amove: Accelerating LLMs through Mitigating Outliers and Salient Points via Fine-Grained Grouped Vectorized Data Type, **MICRO 2025**, <font color="red">(CCF-A)</font>\\
+  Xilong Xie, Liang Wang, Limin Xiao, Meng Han, Lei Liu, Xiangrong Xu, Jinquan Wang, Zhen Song, **Xiaojian Liao**
 - [CaMDN: Enhancing Cache Efficiency for Multi-tenant DNNs on Integrated NPUs](https://www.arxiv.org/abs/2505.06625), **DAC 2025**, <font color="red">(CCF-A)</font>\\
 Tianhao Cai, Liang Wang, Limin Xiao, Meng Han, Zeyu Wang, Lin Sun, **Xiaojian Liao**
 - [CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory](https://dl.acm.org/doi/10.1145/3676641.3715986), **ASPLOS 2025**, <font color="red">(CCF-A)</font> \\
