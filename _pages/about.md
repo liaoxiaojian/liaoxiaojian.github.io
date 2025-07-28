@@ -86,7 +86,8 @@ Proceedings of the 18th European Conference on Computer Systems (EuroSys 2023), 
 Proceedings of the 28th ACM Symposium on Operating Systems Principles (SOSP 2021), <span class="red-text">(CCF-A)</span>
 ### [USENIX ATC'21] [Max: A Multicore-Accelerated File System for Flash Storage](https://www.usenix.org/conference/atc21/presentation/liao)  
 **Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu  
-Proceedings of 2021 USENIX Annual Technical Conference (USENIX ATC 2021), <span class="red-text">(CCF-A)</span>
+Proceedings of 2021 USENIX Annual Technical Conference (USENIX ATC 2021), <span class="red-text">(CCF-A)</span>  
+<span class="red-text">Accepted without discussion at the PC meeting</span>
 ### [OSDI'20] [Write Dependency Disentanglement with HORAE](https://www.usenix.org/conference/osdi20/presentation/liao)  
 **Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu  
 Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2020), <span class="red-text">(CCF-A)</span>
@@ -100,7 +101,7 @@ Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu
 ACM Transactions on Storage (ACM TOS 2025), Volume 21, Issue 2, <span class="red-text">(CCF-A)</span>, <span class="red-text">Fast-Tracked</span>
 ### [ACM TOS'23] [Efficient Crash Consistency for NVMe over PCIe and RDMA](https://dl.acm.org/doi/full/10.1145/3568428)  
 **Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu  
-ACM Transactions on Storage (ACM TOS 2023), Volume 19, Issue 1, <span class="red-text">(CCF-A)</span>
+ACM Transactions on Storage (ACM TOS 2023), Volume 19, Issue 1, <span class="red-text">(CCF-A)</span>, <span class="red-text">Accepted without revisions</span>
 ### [中国科学: 信息科学] [Progress on Storage Systems for Disaggregated Data Centers](http://scis.scichina.com/cn/2023/SSI-2023-0034.pdf)  
 Jiwu Shu, Youmin Chen, Qing Wang, Jing Wang, Junru Li, **Xiaojian Liao**  
 SCIENTIA SINICA Informationis (中国科学: 信息科学, In Chinese), 2023, (CCF-T1)
