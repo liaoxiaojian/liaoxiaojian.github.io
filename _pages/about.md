@@ -22,6 +22,8 @@ My work has been published in top-tier conferences and journals on computer syst
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- 🎉 Oct 2025. FineQ+ (Accelerator for LLM quantization) has been accepted to TC.
+- 🎉 Oct 2025. RL-Paxos (Geo-distributed consensus) has been accepted to ICDE'26.
 - 🎉 July 2025. Amove (SW/HW codesign of LLM) has been accepted to MICRO'25.
 - 🎉 Apr 2025. SpanTrain (AI training system) has been accepted to J-BDR.
 - 🎉 Feb 2025. CaMDN (AI accelerator) has been accepted to DAC'25. 
@@ -33,6 +35,13 @@ My work has been published in top-tier conferences and journals on computer syst
 
 # 🔍 Research Topics
 
+## Recent Projects
+### - Efficient and Scalable Computer System and Architecture for New Applications (e.g., AI and LLM)
+- AI Inference/Serving System: [Expert-Kit](https://github.com/expert-kit/expert-kit), [CoServe](https://dl.acm.org/doi/10.1145/3676641.3715986) (ASPLOS'25), [PipeBoost](https://arxiv.org/abs/2503.17707)
+- AI Training System: [DeepCEE](https://arxiv.org/abs/2505.15536v2)
+- AI Accelerator: [CaMDN](https://www.arxiv.org/abs/2505.06625) (DAC'25), [Amove](https://dl.acm.org/doi/10.1145/3725843.3756113) (MICRO'25), FineQ+ (IEEE TC)
+
+## Past Projects
 ### - I/O Stack and File System on Modern/Future Storage Devices (e.g., NVMe and CXL SSD)
 - Consistency and Reliability: [HORAE](https://www.usenix.org/conference/osdi20/presentation/liao) (OSDI'20), [ccNVMe](https://dl.acm.org/doi/10.1145/3477132.3483592) (SOSP'21)
 - Concurrency and Scalability: [MAX](https://www.usenix.org/conference/atc21/presentation/liao) (USENIX ATC'21)
@@ -43,26 +52,24 @@ My work has been published in top-tier conferences and journals on computer syst
 - Distributed File System: [SuperFS](https://io500.org/list/sc22/ten?sort=io500_md&direction=desc) (#1 in the IO500 10-node Metadata Challenge, SC'22), [SingularFS](https://www.usenix.org/conference/atc23/presentation/guo) (USNNIX ATC'23)
 - RDMA-based Storage: [TeRM](https://www.usenix.org/conference/fast24/presentation/yang-zhe) (FAST'24, ACM TOS)
 
-### - Efficient and Scalable Computer System and Architecture for New Applications (e.g., AI and LLM)
-- AI Inference/Serving System: [CoServe](https://dl.acm.org/doi/10.1145/3676641.3715986) (ASPLOS'25), [PipeBoost](https://arxiv.org/abs/2503.17707)
-- AI Training System: [DeepCEE](https://arxiv.org/abs/2505.15536v2)
-- AI Accelerator: [CaMDN](https://www.arxiv.org/abs/2505.06625) (DAC'25), Amove (MICRO'25)
-
 <span class='anchor' id='pubs'></span>
 
 # 📝 Selected Publications 
 (✉: corresponding authors, #: co-first authors)
 ## 📰 Conference Papers
-### [MICRO’25] [Amove: Accelerating LLMs through Mitigating Outliers and Salient Points via Fine-Grained Grouped Vectorized Data Type](https://microarch.org/micro58/)     
+### [ICDE'26] [RL-Paxos: Relieving the Leader’s Burden with Efficient Task Offloading in Distributed Consensus](https://icde2026.github.io/)  
+Chenhao Zhang, Jinquan Wang, Meng Han, Bing Wei, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao, and Shanchen Pang  
+Proceedings of the 42nd IEEE International Conference on Data Engineering (ICDE 2026), <span class="red-text">(CCF-A)</span>
+### [MICRO'25] [Amove: Accelerating LLMs through Mitigating Outliers and Salient Points via Fine-Grained Grouped Vectorized Data Type](https://dl.acm.org/doi/10.1145/3725843.3756113)     
 Xilong Xie, Liang Wang, Limin Xiao, Meng Han, Lei Liu, Xiangrong Xu, Jinquan Wang, Zhen Song, **Xiaojian Liao**  
 Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture (MICRO 2025), <span class="red-text">(CCF-A)</span>
-### [DAC’25] [CaMDN: Enhancing Cache Efficiency for Multi-tenant DNNs on Integrated NPUs](https://www.arxiv.org/abs/2505.06625)    
+### [DAC'25] [CaMDN: Enhancing Cache Efficiency for Multi-tenant DNNs on Integrated NPUs](https://www.arxiv.org/abs/2505.06625)    
 Tianhao Cai, Liang Wang, Limin Xiao, Meng Han, Zeyu Wang, Lin Sun, **Xiaojian Liao**  
 Proceedings of the 61st ACM/IEEE Design Automation Conference (DAC 2025), <span class="red-text">(CCF-A)</span>  
-### [ASPLOS’25] [CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory](https://dl.acm.org/doi/10.1145/3676641.3715986)  
+### [ASPLOS'25] [CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory](https://dl.acm.org/doi/10.1145/3676641.3715986)  
 Jiashun Suo, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao<sup>✉</sup>, Li Ruan, Jinquan Wang, Xiao Su, Zhisheng Huo  
 Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2025), <span class="red-text">(CCF-A)</span>
-### [HPCA’25] [Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA)](https://ieeexplore.ieee.org/document/10946715)  
+### [HPCA'25] [Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA)](https://ieeexplore.ieee.org/document/10946715)  
 Tianyang Jiang, Guangyan Zhang, **Xiaojian Liao**, Yuqi Zhou  
 Proceedings of the 31st IEEE International Symposium on High-Performance Computer Architecture (HPCA 2025), <span class="red-text">(CCF-A)</span>
 ### [EuroSys'24] [Volley: Accelerating Write-Read Orders in Disaggregated Storage](https://dl.acm.org/doi/10.1145/3627703.3650090)  
@@ -93,6 +100,9 @@ Proceedings of 2021 USENIX Annual Technical Conference (USENIX ATC 2021), <span 
 Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2020), <span class="red-text">(CCF-A)</span>
 
 ## 📖 Journal Papers
+### [IEEE TC'26] [Accelerating LLM Inference via Low-Bit Fine-Grained Quantization Algorithm and Bit-Level Accelerator Co-Design](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12)  
+Xilong Xie, Liang Wang, Limin Xiao, Li Ruan, Tairan Zhang, Jinquan Wang, Yongyue Wang, and **Xiaojian Liao**    
+IEEE Transactions on Computers (IEEE TC) <span class="red-text">(CCF-A)</span>
 ### [大数据] [SpanTrain: A Cross-Domain Distributed Model Training System for Cloud-Edge-End Heterogeneous Devices](https://www.j-bigdataresearch.com.cn/zh/article/doi/10.11959/j.issn.2096-0271.2025040/)  
 Jinquan Wang, Xuzhao Liu, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao<sup>✉</sup>, Zhisheng Huo, Jiashun Suo, Yuntong Li, Runnan Shen, Xilong Xie, Xicheng Tang  
 Journal of BIG DATA RESEARCH (大数据 in Chinese), 2025, (CCF-T2)  
@@ -118,7 +128,6 @@ Jinquan Wang<sup>#</sup>, **Xiaojian Liao<sup>#</sup>**, Xuzhao Liu, Jiashun Suo
 <span class='anchor' id='awards'></span>
 
 # 🏅 Selected Honors & Awards
-
 - 2022, SuperFS ranked #1 in the IO500 10-node Metadata Challenge, SC'22
 - 2022, ACM SIGOPS ChinaSys Doctoral Dissertation Award
 - 2022, Shuimu Tsinghua Scholar (清华大学水木学者)
@@ -136,3 +145,4 @@ Jinquan Wang<sup>#</sup>, **Xiaojian Liao<sup>#</sup>**, Xuzhao Liu, Jiashun Suo
 - 2024, Program committee of the 26th ACM SIGOPS ChinaSys workshop 
 - 2023, Program committee of the 10th ACM Eurosys PaPoc workshop
 - 2022, Journal reviewer of IEEE Transactions on Cloud Computing
+
