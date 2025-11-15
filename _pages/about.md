@@ -22,6 +22,7 @@ My work has been published in top-tier conferences and journals on computer syst
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- 🎉 Nov 2025. One paper has been accepted to AAAI'26.
 - 🎉 Oct 2025. FineQ+ (Accelerator for LLM quantization) has been accepted to TC.
 - 🎉 Oct 2025. RL-Paxos (Geo-distributed consensus) has been accepted to ICDE'26.
 - 🎉 July 2025. Amove (SW/HW codesign of LLM) has been accepted to MICRO'25.
@@ -57,6 +58,9 @@ My work has been published in top-tier conferences and journals on computer syst
 # 📝 Selected Publications 
 (✉: corresponding authors, #: co-first authors)
 ## 📰 Conference Papers
+### [AAAI'26] [Soft Conflict-Resolution Decision Transformer for Offline Multi-Task Reinforcement Learning](https://aaai.org/conference/aaai/aaai-26/)  
+Shudong Wang, Xinfei Wang, Chenhao Zhang, Shanchen Pang, Haiyuan Gui, Wenhao Ji, **Xiaojian Liao**  
+Proceedings of the 40th AAAI Conference on Artificial Intelligence (AAAI 2026), <span class="red-text">(CCF-A)</span>
 ### [ICDE'26] [RL-Paxos: Relieving the Leader’s Burden with Efficient Task Offloading in Distributed Consensus](https://icde2026.github.io/)  
 Chenhao Zhang, Jinquan Wang, Meng Han, Bing Wei, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao, and Shanchen Pang  
 Proceedings of the 42nd IEEE International Conference on Data Engineering (ICDE 2026), <span class="red-text">(CCF-A)</span>
@@ -141,8 +145,10 @@ Jinquan Wang<sup>#</sup>, **Xiaojian Liao<sup>#</sup>**, Xuzhao Liu, Jiashun Suo
 <span class='anchor' id='services'></span>
 
 # 🕑 Professional Services
-- 2024-2025, Journal Reviewer of IEEE Transactions on Computers
+- 2025, Journal Reviewer of IEEE Transactions on Storage (ToS), Transactions on Architecture and Code Optimization (TACO)
+- 2024-2025, Journal Reviewer of IEEE Transactions on Computers (TC)
 - 2024, Program committee of the 26th ACM SIGOPS ChinaSys workshop 
 - 2023, Program committee of the 10th ACM Eurosys PaPoc workshop
 - 2022, Journal reviewer of IEEE Transactions on Cloud Computing
+
 
