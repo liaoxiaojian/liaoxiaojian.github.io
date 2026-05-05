@@ -22,6 +22,8 @@ My work has been published in top-tier conferences and journals on computer syst
 <span class='anchor' id='news'></span>
 
 # 🔥 News
+- 🎉 May 2026. One paper has been accepted to ICML'26.
+- 🎉 Feb 2026. One paper has been accepted to EuroSys'26.
 - 🎉 Nov 2025. One paper has been accepted to AAAI'26.
 - 🎉 Oct 2025. FineQ+ (Accelerator for LLM quantization) has been accepted to TC.
 - 🎉 Oct 2025. RL-Paxos (Geo-distributed consensus) has been accepted to ICDE'26.
@@ -58,7 +60,13 @@ My work has been published in top-tier conferences and journals on computer syst
 # 📝 Selected Publications 
 (✉: corresponding authors, #: co-first authors)
 ## 📰 Conference Papers
-### [AAAI'26] [Soft Conflict-Resolution Decision Transformer for Offline Multi-Task Reinforcement Learning](https://aaai.org/conference/aaai/aaai-26/)  
+### [ICML'26] [ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference](https://icml.cc/)  
+Xiongwei Zhu, **Xiaojian Liao<sup>✉</sup>**, Tianyang Jiang, Yusen Zhang, Liang Wang, Limin Xiao  
+Proceedings of the Forty-Third International Conference on Machine Learning (ICML 2026), <span class="red-text">(CCF-A)</span>
+### [EuroSys'26] [Scalable RDMA-accelerated Distributed Locks with Shared Stream Abstraction](https://dl.acm.org/doi/10.1145/3767295.3803598)  
+Miao Cai, Junru Shen, **Xiaojian Liao**, Rong Gu, Yanchao Zhao, Hao Han, Bing Chen, Baoliu Ye  
+Proceedings of the 21st European Conference on Computer Systems (EuroSys 2026), <span class="red-text">(CCF-A)</span>
+### [AAAI'26] [Soft Conflict-Resolution Decision Transformer for Offline Multi-Task Reinforcement Learning](https://arxiv.org/abs/2511.13133)  
 Shudong Wang, Xinfei Wang, Chenhao Zhang, Shanchen Pang, Haiyuan Gui, Wenhao Ji, **Xiaojian Liao**  
 Proceedings of the 40th AAAI Conference on Artificial Intelligence (AAAI 2026), <span class="red-text">(CCF-A)</span>
 ### [ICDE'26] [RL-Paxos: Relieving the Leader’s Burden with Efficient Task Offloading in Distributed Consensus](https://icde2026.github.io/)  
@@ -145,6 +153,7 @@ Jinquan Wang<sup>#</sup>, **Xiaojian Liao<sup>#</sup>**, Xuzhao Liu, Jiashun Suo
 <span class='anchor' id='services'></span>
 
 # 🕑 Professional Services
+- 2026, Program Co-Chair of Chinasys'26 Spring
 - 2025, Journal Reviewer of IEEE Transactions on Storage (ToS), Transactions on Architecture and Code Optimization (TACO)
 - 2024-2025, Journal Reviewer of IEEE Transactions on Computers (TC)
 - 2024, Program committee of the 26th ACM SIGOPS ChinaSys workshop 
