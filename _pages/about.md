@@ -52,7 +52,7 @@ My work has been published in top-tier conferences and journals on computer syst
 
 ### - Distributed and Networked Storage System on Fast Network Devices (e.g., RDMA NIC and DPU)
 - Disaggregated Storage (NVMe-oF): [RIO](https://dl.acm.org/doi/abs/10.1145/3552326.3567495) (EuroSys'23), [ccNVMe-oF](https://dl.acm.org/doi/full/10.1145/3568428) (ACM TOS), [Volley](https://dl.acm.org/doi/10.1145/3627703.3650090) (EuroSys'24)
-- Distributed File System: [SuperFS](https://io500.org/list/sc22/ten?sort=io500_md&direction=desc) (#1 in the IO500 10-node Metadata Challenge, SC'22), [SingularFS](https://www.usenix.org/conference/atc23/presentation/guo) (USNNIX ATC'23)
+- Distributed File System: [SuperFS](https://io500.org/list/sc22/ten?sort=io500_md&direction=desc) (#1 in the IO500 10-node Metadata Challenge, SC'22), [SingularFS](https://www.usenix.org/conference/atc23/presentation/guo) (USENIX ATC'23)
 - RDMA-based Storage: [TeRM](https://www.usenix.org/conference/fast24/presentation/yang-zhe) (FAST'24, ACM TOS)
 
 <span class='anchor' id='pubs'></span>
@@ -60,7 +60,7 @@ My work has been published in top-tier conferences and journals on computer syst
 # 📝 Selected Publications 
 (✉: corresponding authors, #: co-first authors)
 ## 📰 Conference Papers
-### [ICML'26] [ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference](https://icml.cc/)  
+### [ICML'26] [ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference](https://arxiv.org/abs/2605.27081)  
 Xiongwei Zhu, **Xiaojian Liao<sup>✉</sup>**, Tianyang Jiang, Yusen Zhang, Liang Wang, Limin Xiao  
 Proceedings of the Forty-Third International Conference on Machine Learning (ICML 2026), <span class="red-text">(CCF-A)</span>
 ### [EuroSys'26] [Scalable RDMA-accelerated Distributed Locks with Shared Stream Abstraction](https://dl.acm.org/doi/10.1145/3767295.3803598)  
@@ -153,11 +153,11 @@ Jinquan Wang<sup>#</sup>, **Xiaojian Liao<sup>#</sup>**, Xuzhao Liu, Jiashun Suo
 <span class='anchor' id='services'></span>
 
 # 🕑 Professional Services
-- 2026, Program Co-Chair of Chinasys'26 Spring
-- 2025, Journal Reviewer of IEEE Transactions on Storage (ToS), Transactions on Architecture and Code Optimization (TACO)
+- 2026, Program Co-Chair of ChinaSys'26 Spring
+- 2025, Journal Reviewer of ACM Transactions on Storage (TOS), ACM Transactions on Architecture and Code Optimization (TACO)
 - 2024-2025, Journal Reviewer of IEEE Transactions on Computers (TC)
 - 2024, Program committee of the 26th ACM SIGOPS ChinaSys workshop 
-- 2023, Program committee of the 10th ACM Eurosys PaPoc workshop
+- 2023, Program committee of the 10th ACM EuroSys PaPoc workshop
 - 2022, Journal reviewer of IEEE Transactions on Cloud Computing
 
 
