@@ -1,0 +1,18 @@
+# =============================================================================
+# 🔥 新闻数据文件 - 添加新新闻时只需在此文件中添加一个新条目
+# =============================================================================
+# 每条新闻用字符串形式，最新新闻排在最前面。
+# 首页默认显示前 5 条，其余折叠在 "Show older news" 中。
+# =============================================================================
+
+- "🎉 May 2026. One paper has been accepted to ICML'26."
+- "🎉 Feb 2026. One paper has been accepted to EuroSys'26."
+- "🎉 Nov 2025. One paper has been accepted to AAAI'26."
+- "🎉 Oct 2025. FineQ+ (Accelerator for LLM quantization) has been accepted to TC."
+- "🎉 Oct 2025. RL-Paxos (Geo-distributed consensus) has been accepted to ICDE'26."
+- "🎉 July 2025. Amove (SW/HW codesign of LLM) has been accepted to MICRO'25."
+- "🎉 Apr 2025. SpanTrain (AI training system) has been accepted to J-BDR."
+- "🎉 Feb 2025. CaMDN (AI accelerator) has been accepted to DAC'25."
+- "🎉 Jan 2025. CoServe (AI inference system) has been accepted to ASPLOS'25."
+- "🎉 Nov 2024. Zebra (ZNS SSD RAID) has been accepted to HPCA'25."
+- "🎉 August 2024. I will join Beihang University as an associate professor."

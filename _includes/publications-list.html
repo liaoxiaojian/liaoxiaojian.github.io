@@ -1,0 +1,34 @@
+{% comment %}
+  =============================================================================
+  论文列表渲染模板
+  由 _data/papers.yml 驱动，自动按类别分组渲染
+  =============================================================================
+{% endcomment %}
+
+(✉: corresponding authors, #: co-first authors)
+
+{% assign categories = "conference|journal|preprint" | split: "|" %}
+{% assign category_labels = "📰 Conference Papers|📖 Journal Papers|✍️ Preprint" | split: "|" %}
+
+{% for cat in categories %}
+  {% assign idx = forloop.index0 %}
+  {% assign cat_papers = site.data.papers | where: "category", cat %}
+  {% if cat_papers.size > 0 %}
+## {{ category_labels[idx] }}
+
+    {% for paper in cat_papers %}
+### {% if paper.tag != "" %}[{{ paper.tag }}] {% endif %}[{{ paper.title }}]({{ paper.url }})  
+{{ paper.authors }}  
+      {% if paper.venue != "" and paper.ccf_rank != "" %}
+{{ paper.venue }}, <span class="red-text">({{ paper.ccf_rank }})</span>
+      {% elsif paper.venue != "" %}
+{{ paper.venue }}
+      {% elsif paper.ccf_rank != "" %}
+<span class="red-text">({{ paper.ccf_rank }})</span>
+      {% endif %}
+      {% if paper.note != "" %}
+<span class="red-text">{{ paper.note }}</span>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}

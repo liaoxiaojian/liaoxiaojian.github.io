@@ -1,0 +1,258 @@
+# =============================================================================
+# 📝 论文数据文件 - 添加新论文时只需在此文件中添加一个新条目
+# =============================================================================
+# 字段说明:
+#   category: conference | journal | preprint  (论文类别)
+#   tag:      短标签，如 "ICML'26" (显示在标题前的方括号中)
+#   title:    论文标题
+#   url:      论文链接
+#   authors:  作者列表（用 **加粗** 标记自己的名字，用 <sup>✉</sup> 标记通讯作者）
+#   venue:    会议/期刊全称
+#   ccf_rank: CCF等级，如 "CCF-A"、"CCF-T1"、"CCF-T2"；非CCF论文留空
+#   note:     备注，如 "Fast-Tracked"、"Accepted without revisions" 等；没有则留空
+#   year:     年份（用于排序）
+# =============================================================================
+
+- category: conference
+  tag: "ICML'26"
+  title: "ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference"
+  url: "https://arxiv.org/abs/2605.27081"
+  authors: "Xiongwei Zhu, **Xiaojian Liao<sup>✉</sup>**, Tianyang Jiang, Yusen Zhang, Liang Wang, Limin Xiao"
+  venue: "Proceedings of the Forty-Third International Conference on Machine Learning (ICML 2026)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2026
+
+- category: conference
+  tag: "EuroSys'26"
+  title: "Scalable RDMA-accelerated Distributed Locks with Shared Stream Abstraction"
+  url: "https://dl.acm.org/doi/10.1145/3767295.3803598"
+  authors: "Miao Cai, Junru Shen, **Xiaojian Liao**, Rong Gu, Yanchao Zhao, Hao Han, Bing Chen, Baoliu Ye"
+  venue: "Proceedings of the 21st European Conference on Computer Systems (EuroSys 2026)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2026
+
+- category: conference
+  tag: "AAAI'26"
+  title: "Soft Conflict-Resolution Decision Transformer for Offline Multi-Task Reinforcement Learning"
+  url: "https://arxiv.org/abs/2511.13133"
+  authors: "Shudong Wang, Xinfei Wang, Chenhao Zhang, Shanchen Pang, Haiyuan Gui, Wenhao Ji, **Xiaojian Liao**"
+  venue: "Proceedings of the 40th AAAI Conference on Artificial Intelligence (AAAI 2026)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2026
+
+- category: conference
+  tag: "ICDE'26"
+  title: "RL-Paxos: Relieving the Leader's Burden with Efficient Task Offloading in Distributed Consensus"
+  url: "https://icde2026.github.io/"
+  authors: "Chenhao Zhang, Jinquan Wang, Meng Han, Bing Wei, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao, and Shanchen Pang"
+  venue: "Proceedings of the 42nd IEEE International Conference on Data Engineering (ICDE 2026)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2026
+
+- category: conference
+  tag: "MICRO'25"
+  title: "Amove: Accelerating LLMs through Mitigating Outliers and Salient Points via Fine-Grained Grouped Vectorized Data Type"
+  url: "https://dl.acm.org/doi/10.1145/3725843.3756113"
+  authors: "Xilong Xie, Liang Wang, Limin Xiao, Meng Han, Lei Liu, Xiangrong Xu, Jinquan Wang, Zhen Song, **Xiaojian Liao**"
+  venue: "Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture (MICRO 2025)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2025
+
+- category: conference
+  tag: "DAC'25"
+  title: "CaMDN: Enhancing Cache Efficiency for Multi-tenant DNNs on Integrated NPUs"
+  url: "https://www.arxiv.org/abs/2505.06625"
+  authors: "Tianhao Cai, Liang Wang, Limin Xiao, Meng Han, Zeyu Wang, Lin Sun, **Xiaojian Liao**"
+  venue: "Proceedings of the 61st ACM/IEEE Design Automation Conference (DAC 2025)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2025
+
+- category: conference
+  tag: "ASPLOS'25"
+  title: "CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory"
+  url: "https://dl.acm.org/doi/10.1145/3676641.3715986"
+  authors: "Jiashun Suo, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao<sup>✉</sup>, Li Ruan, Jinquan Wang, Xiao Su, Zhisheng Huo"
+  venue: "Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS 2025)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2025
+
+- category: conference
+  tag: "HPCA'25"
+  title: "Zebra: Efficient Redundant Array of Zoned Namespace SSDs Enabled by Zone Random Write Area (ZRWA)"
+  url: "https://ieeexplore.ieee.org/document/10946715"
+  authors: "Tianyang Jiang, Guangyan Zhang, **Xiaojian Liao**, Yuqi Zhou"
+  venue: "Proceedings of the 31st IEEE International Symposium on High-Performance Computer Architecture (HPCA 2025)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2025
+
+- category: conference
+  tag: "EuroSys'24"
+  title: "Volley: Accelerating Write-Read Orders in Disaggregated Storage"
+  url: "https://dl.acm.org/doi/10.1145/3627703.3650090"
+  authors: "Shaoxun Zeng, **Xiaojian Liao**, Hao Guo, Youyou Lu"
+  venue: "Proceedings of the Nineteenth European Conference on Computer Systems (EuroSys 2024)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2024
+
+- category: conference
+  tag: "FAST'24"
+  title: "TeRM: Extending RDMA-Attached Memory with SSD"
+  url: "https://www.usenix.org/conference/fast24/presentation/yang-zhe"
+  authors: "Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu"
+  venue: "Proceedings of the 22nd USENIX Conference on File and Storage Technologies (FAST 2024)"
+  ccf_rank: "CCF-A"
+  note: "Invited for fast-tracked publication in ACM Transactions on Storage"
+  year: 2024
+
+- category: conference
+  tag: "USENIX ATC'23"
+  title: "SingularFS: A Billion-Scale Distributed File System Using a Single Metadata Server"
+  url: "https://www.usenix.org/conference/atc23/presentation/guo"
+  authors: "Hao Guo, Youyou Lu, Wenhao Lv, **Xiaojian Liao**, Shaoxun Zeng, Jiwu Shu"
+  venue: "Proceedings of 2023 USENIX Annual Technical Conference (USENIX ATC 2023)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2023
+
+- category: conference
+  tag: "FAST'23"
+  title: "λ-IO: A Unified IO Stack for Computational Storage"
+  url: "https://www.usenix.org/conference/fast23/presentation/yang-zhe"
+  authors: "Zhe Yang, Youyou Lu, **Xiaojian Liao**, Youmin Chen, Junru Li, Siyu He, Jiwu Shu"
+  venue: "Proceedings of the 21st USENIX Conference on File and Storage Technologies (FAST 2023)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2023
+
+- category: conference
+  tag: "EuroSys'23"
+  title: "RIO: Order-Preserving and CPU-Efficient Remote Storage Access"
+  url: "https://dl.acm.org/doi/abs/10.1145/3552326.3567495"
+  authors: "**Xiaojian Liao**, Zhe Yang, Jiwu Shu"
+  venue: "Proceedings of the 18th European Conference on Computer Systems (EuroSys 2023)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2023
+
+- category: conference
+  tag: "SOSP'21"
+  title: "Crash Consistent Non-Volatile Memory Express"
+  url: "https://dl.acm.org/doi/10.1145/3477132.3483592"
+  authors: "**Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu"
+  venue: "Proceedings of the 28th ACM Symposium on Operating Systems Principles (SOSP 2021)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2021
+
+- category: conference
+  tag: "USENIX ATC'21"
+  title: "Max: A Multicore-Accelerated File System for Flash Storage"
+  url: "https://www.usenix.org/conference/atc21/presentation/liao"
+  authors: "**Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu"
+  venue: "Proceedings of 2021 USENIX Annual Technical Conference (USENIX ATC 2021)"
+  ccf_rank: "CCF-A"
+  note: "Accepted without discussion at the PC meeting"
+  year: 2021
+
+- category: conference
+  tag: "OSDI'20"
+  title: "Write Dependency Disentanglement with HORAE"
+  url: "https://www.usenix.org/conference/osdi20/presentation/liao"
+  authors: "**Xiaojian Liao**, Youyou Lu, Erci Xu, Jiwu Shu"
+  venue: "Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2020)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2020
+
+# =========================== 📖 期刊论文 ===========================
+
+- category: journal
+  tag: "IEEE TC'26"
+  title: "Accelerating LLM Inference via Low-Bit Fine-Grained Quantization Algorithm and Bit-Level Accelerator Co-Design"
+  url: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12"
+  authors: "Xilong Xie, Liang Wang, Limin Xiao, Li Ruan, Tairan Zhang, Jinquan Wang, Yongyue Wang, and **Xiaojian Liao**"
+  venue: "IEEE Transactions on Computers (IEEE TC)"
+  ccf_rank: "CCF-A"
+  note: ""
+  year: 2026
+
+- category: journal
+  tag: "大数据"
+  title: "SpanTrain: A Cross-Domain Distributed Model Training System for Cloud-Edge-End Heterogeneous Devices"
+  url: "https://www.j-bigdataresearch.com.cn/zh/article/doi/10.11959/j.issn.2096-0271.2025040/"
+  authors: "Jinquan Wang, Xuzhao Liu, **Xiaojian Liao<sup>✉</sup>**, Limin Xiao<sup>✉</sup>, Zhisheng Huo, Jiashun Suo, Yuntong Li, Runnan Shen, Xilong Xie, Xicheng Tang"
+  venue: "Journal of BIG DATA RESEARCH (大数据 in Chinese), 2025"
+  ccf_rank: "CCF-T2"
+  note: ""
+  year: 2025
+
+- category: journal
+  tag: "ACM TOS'25"
+  title: "Efficiently Enlarging RDMA-Attached Memory with SSD"
+  url: "https://dl.acm.org/doi/10.1145/3700772"
+  authors: "Zhe Yang, Qing Wang, **Xiaojian Liao**, Youyou Lu, Keji Huang, Jiwu Shu"
+  venue: "ACM Transactions on Storage (ACM TOS 2025), Volume 21, Issue 2"
+  ccf_rank: "CCF-A"
+  note: "Fast-Tracked"
+  year: 2025
+
+- category: journal
+  tag: "ACM TOS'23"
+  title: "Efficient Crash Consistency for NVMe over PCIe and RDMA"
+  url: "https://dl.acm.org/doi/full/10.1145/3568428"
+  authors: "**Xiaojian Liao**, Youyou Lu, Zhe Yang, Jiwu Shu"
+  venue: "ACM Transactions on Storage (ACM TOS 2023), Volume 19, Issue 1"
+  ccf_rank: "CCF-A"
+  note: "Accepted without revisions"
+  year: 2023
+
+- category: journal
+  tag: "中国科学: 信息科学"
+  title: "Progress on Storage Systems for Disaggregated Data Centers"
+  url: "http://scis.scichina.com/cn/2023/SSI-2023-0034.pdf"
+  authors: "Jiwu Shu, Youmin Chen, Qing Wang, Jing Wang, Junru Li, **Xiaojian Liao**"
+  venue: "SCIENTIA SINICA Informationis (中国科学: 信息科学, In Chinese), 2023"
+  ccf_rank: "CCF-T1"
+  note: ""
+  year: 2023
+
+- category: journal
+  tag: "计算机研究与发展"
+  title: "A Low-Latency Storage Engine with Low CPU Overhead"
+  url: "https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.20210574"
+  authors: "**Xiaojian Liao**, Zhe Yang, Hongzhang Yang, Yaofeng Tu, Jiwu Shu"
+  venue: "Journal of Computer Research and Development (计算机研究与发展, in Chinese), 2023"
+  ccf_rank: "CCF-T1"
+  note: ""
+  year: 2023
+
+# =========================== ✍️ 预印本 ===========================
+
+- category: preprint
+  tag: ""
+  title: "PipeBoost: Resilient Pipelined Architecture for Fast Serverless LLM Scaling"
+  url: "https://arxiv.org/abs/2503.17707"
+  authors: "Chongpeng Liu, **Xiaojian Liao<sup>✉</sup>**, Hancheng Liu, Limin Xiao, Jianxin Li<sup>✉</sup>"
+  venue: ""
+  ccf_rank: ""
+  note: ""
+  year: 2025
+
+- category: preprint
+  tag: ""
+  title: "DeepCEE: Efficient Cross-Region Model Distributed Training System under Heterogeneous GPUs and Networks"
+  url: "https://arxiv.org/abs/2505.15536v2"
+  authors: "Jinquan Wang<sup>#</sup>, **Xiaojian Liao<sup>#</sup>**, Xuzhao Liu, Jiashun Suo, Zhisheng Huo, Chenhao Zhang, Xiangrong Xu, Runnan Shen, Xilong Xie, Limin Xiao"
+  venue: ""
+  ccf_rank: ""
+  note: ""
+  year: 2025
