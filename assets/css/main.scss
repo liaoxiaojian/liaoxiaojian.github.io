@@ -109,6 +109,322 @@ h1:before, .anchor:before {
 }
 
 .red-text {
-  color: red;
+  color: #c0392b;
   font-weight: bold;
+}
+
+/* Recruitment banner (only for the specific recruitment paragraph) */
+.recruit-text {
+  display: block;
+  background: linear-gradient(135deg, #fff5f5, #fff0f0);
+  border-left: 4px solid #c0392b;
+  border-radius: 8px;
+  padding: 0.8em 1em !important;
+  margin: 1.2em 0 !important;
+  color: #c0392b;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   GRANTS SECTION
+   ========================================================================== */
+
+/* Section divider: gradient line between major sections */
+.page__content h1 {
+  position: relative;
+  margin-top: 1.8em;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, $info-color, transparent);
+    border-radius: 2px;
+    margin-top: 0.3em;
+  }
+}
+
+/* Remove the h1 bottom border from page.scss override */
+.page__content h1 {
+  border-bottom: none;
+}
+
+.grants-list {
+  margin: 0.8em 0;
+}
+
+.grant-item {
+  padding: 0.5em 0;
+  margin-bottom: 0;
+
+  & + & {
+    border-top: 1px solid $border-color;
+  }
+}
+
+.grant-name {
+  display: block;
+  font-weight: 600;
+  color: #1a2a3a;
+  margin-bottom: 0.2em;
+}
+
+.grant-meta {
+  display: block;
+  font-size: 1em;
+  color: #5a6a7a;
+}
+
+/* Paper entry card style */
+.page__content h3 {
+  padding: 0.6em 0.8em 0.3em;
+  margin-bottom: 0;
+  border-radius: 8px 8px 0 0;
+  transition: all 0.25s ease;
+}
+
+.page__content h3 ~ p {
+  padding: 0 0.8em;
+  transition: all 0.25s ease;
+}
+
+.page__content h3 ~ p:last-of-type {
+  padding-bottom: 0.6em;
+  margin-bottom: 0.6em;
+  border-radius: 0 0 8px 8px;
+}
+
+.page__content h3 + p + p {
+  padding-bottom: 0;
+}
+
+/* Hover effect: whole paper entry lifts slightly */
+.page__content h3:hover {
+  background-color: rgba($info-color, 0.04);
+}
+
+.page__content h3:hover ~ p {
+  background-color: rgba($info-color, 0.04);
+}
+
+.page__content h3:hover ~ p:last-of-type {
+  background-color: rgba($info-color, 0.04);
+}
+
+.page__content h2 + h3 {
+  border-top: none;
+  padding-top: 0.6em;
+}
+
+/* Add extra space after the venue line (last p in each paper entry) */
+.page__content h3 ~ p:last-of-type {
+  margin-bottom: 1em;
+}
+
+/* Awards list */
+.awards-list {
+  margin: 0.8em 0;
+}
+
+.award-item {
+  padding: 0.5em 0;
+  line-height: 1.6;
+
+  & + & {
+    border-top: 1px solid $border-color;
+  }
+}
+
+/* Services list */
+.services-list {
+  margin: 0.8em 0;
+}
+
+.service-item {
+  padding: 0.5em 0;
+  line-height: 1.6;
+
+  & + & {
+    border-top: 1px solid $border-color;
+  }
+}
+
+/* News list */
+/* ==========================================================================
+   TEACHING SECTION
+   ========================================================================== */
+
+.teaching-list {
+  margin: 0.8em 0;
+}
+
+.teaching-item {
+  padding: 0.5em 0;
+  line-height: 1.6;
+
+  & + & {
+    border-top: 1px solid $border-color;
+  }
+}
+
+.news-list {
+  margin: 0.5em 0 0;
+  padding-left: 1.25em;
+
+  li {
+    margin-bottom: 0.35em;
+    line-height: 1.45;
+  }
+}
+
+.news-more {
+  margin-top: 0.25em;
+  summary {
+    cursor: pointer;
+    color: $link-color;
+    font-size: 0.92em;
+  }
+}
+
+/* ==========================================================================
+   RESEARCH TOPICS - 研究方向卡片
+   ========================================================================== */
+
+/* Style the project category headings */
+.page__content h3:has(strong) {
+  padding: 0;
+  border-radius: 0;
+  background: none;
+}
+
+/* Section label for Recent Projects / Past Projects */
+.page__content h2 {
+  font-size: $type-size-3;
+  margin-top: 1.2em;
+}
+
+/* Research topic bullets */
+.page__content ul:has(li a[href*="//"]) {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    position: relative;
+    padding: 0.35em 0 0.35em 1.8em;
+    line-height: 1.6;
+
+    &::before {
+      content: '▹';
+      position: absolute;
+      left: 0.4em;
+      color: $info-color;
+      font-weight: bold;
+    }
+  }
+}
+
+/* Topic headings like "### - Efficient and Scalable..." */
+.page__content h3:not(:has(a)):not(:has(.red-text)) {
+  font-size: $type-size-5;
+  color: #1a2a3a;
+  margin-top: 1em;
+  padding: 0.5em 0.8em;
+  border-radius: 6px;
+  border-left: 3px solid $info-color;
+  background-color: rgba($info-color, 0.04);
+}
+
+/* ==========================================================================
+   BACK TO TOP BUTTON
+   ========================================================================== */
+
+.back-to-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba($info-color, 0.85);
+  color: #fff;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    background-color: $info-color;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* ==========================================================================
+   MOBILE RESPONSIVE
+   ========================================================================== */
+
+@include breakpoint(max-width $small) {
+  #main {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+  }
+
+  .page .profile_box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .page .author__avatar img {
+    max-width: 100px;
+    min-width: 80px;
+  }
+
+  .page .author__content {
+    min-width: unset;
+  }
+
+  .page .author__links {
+    justify-content: center;
+  }
+
+  .back-to-top {
+    bottom: 1em;
+    right: 1em;
+    width: 36px;
+    height: 36px;
+    font-size: 1em;
+  }
+
+  .page__content {
+    ul {
+      padding-left: 1.2em;
+    }
+  }
+}
+
+@include breakpoint($small $medium) {
+  .page .profile_box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .page .author__links {
+    justify-content: center;
+  }
 }

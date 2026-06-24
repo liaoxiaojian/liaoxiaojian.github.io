@@ -1,0 +1,6 @@
+{% assign services = site.data.services | sort: "year" | reverse %}
+<div class="services-list">
+{% for service in services %}
+  <div class="service-item">{{ service.year }}, {{ service.role }} of {{ service.event }}</div>
+{% endfor %}
+</div>

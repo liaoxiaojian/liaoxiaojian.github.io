@@ -1,0 +1,6 @@
+{% assign awards = site.data.awards %}
+<div class="awards-list">
+{% for award in awards %}
+  <div class="award-item">{{ award.year }}, {{ award.award }}</div>
+{% endfor %}
+</div>

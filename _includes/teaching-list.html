@@ -1,0 +1,16 @@
+{% comment %}
+  =============================================================================
+  Teaching 渲染模板
+  由 _data/teaching.yml 驱动，每条课程在一行内显示
+  =============================================================================
+{% endcomment %}
+
+{% if site.data.teaching and site.data.teaching.size > 0 %}
+<div class="teaching-list">
+  {% for item in site.data.teaching %}
+  <div class="teaching-item">{{ item.course }}{% if item.audience %}，{{ item.audience }}{% endif %}{% if item.year %}，{{ item.year }}{% endif %}</div>
+  {% endfor %}
+</div>
+{% else %}
+<p><em>Content to be added.</em></p>
+{% endif %}

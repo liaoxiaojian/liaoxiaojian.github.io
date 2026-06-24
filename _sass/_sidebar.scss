@@ -68,6 +68,150 @@
 /*
    Author profile and links
    ========================================================================== */
+/* ==========================================================================
+   INLINE AUTHOR PROFILE (at top of content)
+   ========================================================================== */
+
+.page .profile_box {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 1.2em;
+  padding: 0.5em 0;
+  margin-bottom: 1em;
+  border-bottom: 1px solid $border-color;
+  -webkit-animation: fadeInUp 0.5s ease-out both;
+          animation: fadeInUp 0.5s ease-out both;
+}
+
+.page .author__avatar {
+  flex-shrink: 0;
+  width: auto;
+
+  img {
+    max-width: 144px;
+    min-width: 96px;
+    border-radius: 12px;
+    border: 2px solid $border-color;
+    transition: $global-transition;
+
+    &:hover {
+      border-color: $info-color;
+      box-shadow: 0 0 0 3px rgba($info-color, 0.15);
+    }
+  }
+}
+
+.page .author__content {
+  flex: 1;
+  min-width: 200px;
+  padding-left: 0;
+}
+
+.page .author__name {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+
+.page .author__bio {
+  font-size: $type-size-5;
+  color: #5a6a7a;
+  margin-bottom: 0.5em;
+}
+
+.page .author__links {
+  display: flex;
+  gap: 0.2em;
+  margin-top: 0.4em;
+  flex-wrap: wrap;
+}
+
+.page .author__link-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2em;
+  font-size: $type-size-6;
+  color: $info-color;
+  text-decoration: none;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  transition: $global-transition;
+
+  &:hover {
+    background-color: rgba($info-color, 0.08);
+    text-decoration: none;
+  }
+
+  .fa, .fas, .fab, .far, .ai {
+    font-size: 1em;
+  }
+}
+
+.page .author__custom-bio {
+  margin-top: 0.3em;
+
+  p {
+    margin: 0.2em 0;
+    font-size: $type-size-6;
+    line-height: 1.5;
+    color: #3d4f5f;
+  }
+}
+
+.page .author__urls-wrapper {
+  margin-top: 0.4em;
+
+  .author__urls {
+    display: block;
+    position: static;
+    border: none;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    &:before, &:after {
+      display: none;
+    }
+
+    li {
+      display: block;
+      font-size: $type-size-6;
+      line-height: 1.8;
+      padding: 0.1em 0;
+    }
+
+    a {
+      color: $text-color;
+      font-size: $type-size-6;
+      text-decoration: none;
+      transition: $global-transition;
+
+      &:hover {
+        color: $info-color;
+        text-decoration: none;
+      }
+    }
+
+    .fa,
+    .fas,
+    .fab,
+    .far,
+    .ai {
+      width: 1.4em;
+      text-align: center;
+      color: $info-color;
+    }
+  }
+}
+
+/*
+   Sidebar (only used for custom sidebar content)
+   ========================================================================== */
+
 .profile_box{
   @include breakpoint($large) {
     display: block;

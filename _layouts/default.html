@@ -15,11 +15,12 @@ layout: compress
     {% include masthead.html %}
 
     <div id="main" role="main">
-      {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
+          <span class='anchor' id='about-me'></span>
+          {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
           <section class="page__content" itemprop="text">
             {{ content }}
           </section>
@@ -28,6 +29,21 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+    <script>
+      var btn = document.getElementById('backToTop');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+      });
+      btn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
 
   </body>
 </html>
