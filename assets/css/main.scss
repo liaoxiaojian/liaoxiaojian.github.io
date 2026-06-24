@@ -398,8 +398,10 @@ h1:before, .anchor:before {
     min-width: unset;
   }
 
-  .page .author__links {
-    justify-content: center;
+  .sidebar,
+  .author__urls-wrapper,
+  .author__urls_sm {
+    display: none !important;
   }
 
   .back-to-top {
