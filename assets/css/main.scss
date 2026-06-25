@@ -200,16 +200,10 @@ h1:before, .anchor:before {
   padding-bottom: 0;
 }
 
-/* Hover effect: whole paper entry lifts slightly */
-.page__content h3:hover {
-  background-color: rgba($info-color, 0.04);
-}
-
-.page__content h3:hover ~ p {
-  background-color: rgba($info-color, 0.04);
-}
-
-.page__content h3:hover ~ p:last-of-type {
+/* Hover effect: only highlight the hovered paper entry */
+.page__content h3:hover,
+.page__content h3:hover + p,
+.page__content h3:hover + p + p {
   background-color: rgba($info-color, 0.04);
 }
 
