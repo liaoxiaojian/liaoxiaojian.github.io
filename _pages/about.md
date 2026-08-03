@@ -63,12 +63,6 @@ My work has been published in top-tier conferences and journals on computer syst
 
 {% include services-list.html %}
 
-<span class='anchor' id='grants'></span>
-
-# 🤝 Selected Research Grants
-
-{% include grants-list.html %}
-
 <span class='anchor' id='teaching'></span>
 
 # 👨‍🏫 Teaching Courses

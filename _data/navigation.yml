@@ -18,8 +18,5 @@ main:
   - title: "Services"
     url: "#services"
 
-  - title: "Grants"
-    url: "#grants"
-
   - title: "Teaching"
     url: "#teaching"

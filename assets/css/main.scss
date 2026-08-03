@@ -126,10 +126,6 @@ h1:before, .anchor:before {
   line-height: 1.6;
 }
 
-/* ==========================================================================
-   GRANTS SECTION
-   ========================================================================== */
-
 /* Section divider: gradient line between major sections */
 .page__content h1 {
   position: relative;
@@ -149,32 +145,6 @@ h1:before, .anchor:before {
 /* Remove the h1 bottom border from page.scss override */
 .page__content h1 {
   border-bottom: none;
-}
-
-.grants-list {
-  margin: 0.8em 0;
-}
-
-.grant-item {
-  padding: 0.5em 0;
-  margin-bottom: 0;
-
-  & + & {
-    border-top: 1px solid $border-color;
-  }
-}
-
-.grant-name {
-  display: block;
-  font-weight: 600;
-  color: #1a2a3a;
-  margin-bottom: 0.2em;
-}
-
-.grant-meta {
-  display: block;
-  font-size: 1em;
-  color: #5a6a7a;
 }
 
 /* Paper entry card style */
