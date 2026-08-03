@@ -33,7 +33,7 @@ My work has been published in top-tier conferences and journals on computer syst
 ### Efficient and Scalable Computer System and Architecture for New Applications (e.g., AI and LLM)
 - AI Serving System: [Expert-Kit](https://github.com/expert-kit/expert-kit), [CoServe](https://dl.acm.org/doi/10.1145/3676641.3715986) (ASPLOS'25), [PipeBoost](https://arxiv.org/abs/2503.17707)
 - AI Training System: [DeepCEE](https://arxiv.org/abs/2505.15536v2)
-- AI Accelerator: [Amove](https://dl.acm.org/doi/10.1145/3725843.3756113) (MICRO'25), [CaMDN](https://www.arxiv.org/abs/2505.06625) (DAC'25), [FineQ+](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12) (IEEE TC)
+- AI Accelerator Design: [Amove](https://dl.acm.org/doi/10.1145/3725843.3756113) (MICRO'25), [CaMDN](https://www.arxiv.org/abs/2505.06625) (DAC'25), [FineQ+](https://ieeexplore.ieee.org/document/11230088) (IEEE TC)
 - AI System and Algorithm Codesign: [ReMoE](https://arxiv.org/abs/2605.27081) (ICML'26)
 
 ## Past Projects
@@ -41,7 +41,7 @@ My work has been published in top-tier conferences and journals on computer syst
 - Consistency and Reliability: [HORAE](https://www.usenix.org/conference/osdi20/presentation/liao) (OSDI'20), [ccNVMe](https://dl.acm.org/doi/10.1145/3477132.3483592) (SOSP'21)
 - Concurrency and Scalability: [MAX](https://www.usenix.org/conference/atc21/presentation/liao) (USENIX ATC'21)
 - Computational Storage (Smart SSD): [λ-IO](https://www.usenix.org/conference/fast23/presentation/yang-zhe) (FAST'23)
-- Disaggregated Storage (NVMe-oF): [RIO](https://dl.acm.org/doi/abs/10.1145/3552326.3567495) (EuroSys'23), [ccNVMe-oF](https://dl.acm.org/doi/full/10.1145/3568428) (ACM TOS), [Volley](https://dl.acm.org/doi/10.1145/3627703.3650090) (EuroSys'24)
+- Disaggregated Storage (NVMe-oF): [RIO](https://dl.acm.org/doi/abs/10.1145/3552326.3567495) (EuroSys'23), [ccNVMe-oF](https://dl.acm.org/doi/full/10.1145/3568428) (ACM TOS), [Volley](https://dl.acm.org/doi/10.1145/3627703.3650090) (EuroSys'24, ACM TOS)
 - Distributed File System: [SuperFS](https://io500.org/list/sc22/ten?sort=io500_md&direction=desc) (#1 in the IO500 10-node Metadata Challenge, SC'22), [SingularFS](https://www.usenix.org/conference/atc23/presentation/guo) (USENIX ATC'23)
 - RDMA-based Storage: [TeRM](https://www.usenix.org/conference/fast24/presentation/yang-zhe) (FAST'24, ACM TOS)
 

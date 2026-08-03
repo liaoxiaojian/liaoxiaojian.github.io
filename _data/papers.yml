@@ -180,7 +180,7 @@
   title: "Speeding Up Write-Read Orders in Disaggregated Storage"
   url: "https://dl.acm.org/doi/abs/10.1145/3829363"
   authors: "Shaoxun Zeng, **Xiaojian Liao**, Hao Guo, Jiwu Shu, Youyou Lu"
-  venue: "ACM Transactions on Storage (ACM ToS 2026)"
+  venue: "ACM Transactions on Storage (ACM TOS 2026)"
   ccf_rank: "CCF-A"
   note: ""
   year: 2026
